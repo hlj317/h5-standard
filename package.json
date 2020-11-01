@@ -1,6 +1,6 @@
 {
-    "name": "node-h5",
-    "description": "node-h5",
+    "name": "h5-standard",
+    "description": "h5-standard",
     "version": "1.0.0",
     "main": "index.web.js",
     "scripts": {
@@ -20,7 +20,7 @@
         "url": ""
     },
     "keywords": [
-        "node-h5"
+        "h5-standard"
     ],
     "author": "lijun.huang@beibei.com",
     "dependencies": {
