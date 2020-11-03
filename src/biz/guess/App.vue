@@ -1,6 +1,7 @@
 <template>
   <div id="guess"
        class="guess-page">
+    <div>测试OK</div>
     <Banner :showrule="showRuleModel"></Banner>
     <Main :count="countNum"
           :end="rspData.end"
