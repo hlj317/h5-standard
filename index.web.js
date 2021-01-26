@@ -84,11 +84,6 @@
         router.all(urlPath, controller);
     }
 
-    // 开启https服务
-    // if (process.env.NODE_ENV !== "dev") {
-    //     await server.ssl("./ssl/4689301_m.xiaohuangren.top.key", "./ssl/4689301_m.xiaohuangren.top.pem");
-    // }
-
     await server.startup(router, port);
 
     // POST请求都需要有登录态
