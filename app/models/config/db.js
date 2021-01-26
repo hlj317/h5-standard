@@ -16,6 +16,8 @@ const PRO = {
     user: "hlj317",
     password: "@Abc$05906107#",
     database: "movie",
+    account_table: "movie_login",
+    account_table_field: ["username", "password"],
     movie_table: "movie_list",
     movie_table_field: ["doubanId", "title", "rate", "poster", "type"]
 };
